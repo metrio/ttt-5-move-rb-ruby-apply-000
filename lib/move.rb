@@ -8,10 +8,10 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
-  index = user_input.to_i - 1    'index is correlated to display_board and user_input is made into an integer by to_i'
+  index = user_input.to_i - 1    #index is correlated to display_board and user_input is made into an integer by to_i'
 end
 
-def move(board, index, player = "X") 'player is defaulted to X'
+def move(board, index, player = "X")  #player is defaulted to X
 board[index]= player
 end
 
